@@ -29,6 +29,11 @@ public class Main {
             case 4 -> new me.squidxtv.y2023.Day04();
             case 5 -> new me.squidxtv.y2023.Day05();
             case 6 -> new me.squidxtv.y2023.Day06();
+            case 7 -> new me.squidxtv.y2023.Day07();
+            case 8 -> new me.squidxtv.y2023.Day08();
+            case 9 -> new me.squidxtv.y2023.Day09();
+            case 10 -> new me.squidxtv.y2023.Day10();
+            case 11 -> new me.squidxtv.y2023.Day11();
             default -> throw new IllegalStateException("Day not existing: " + day);
         };
         d.execute();
